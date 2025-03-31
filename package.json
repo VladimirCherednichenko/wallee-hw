@@ -1,0 +1,25 @@
+{
+  "name": "walee",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium",
+    "report": "playwright show-report",
+    "debug": "playwright test --debug",
+    "headless": "false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.13",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2"
+  }
+}
